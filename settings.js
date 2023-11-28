@@ -10,19 +10,19 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "6797309646","27624624322","27745606434","918618971837"
+global.ownernomer = "6797309646","918618971837","2348068620970"
 global.ownername = "ɢʀᴇᴇᴋ"
-global.ytname = "YT: NASSWORKS"
-global.socialm = "Github: NASS-WORKS"
-global.location = "Japan, akina"
+global.ytname = "YT: Microsoft"
+global.socialm = "Github: zeus30007"
+global.location = "USA, new York"
 
 global.ownernumber = '6797309646'  //creator number
 global.ownername = 'ɢʀᴇᴇᴋ' //owner name
-global.botname = 'BOT:ⁿɢʀᴇᴇᴋ' //name of the bot
+global.botname = 'MICROSOFT TECHNICAL SUPPORT' //name of the bot
 
 //sticker details
-global.packname = 'steal it its part of lord'
-global.author = 'ɢʀᴇᴇᴋ👤'
+global.packname = 'steal it and your company will have virus'
+global.author = 'Microsoft'
 //console view/theme
 global.themeemoji = '👤'
 global.wm = "ɢʀᴇᴇᴋ Bot Inc."
@@ -34,8 +34,8 @@ global.link = 'wa.me//6797309646'
 global.prefa = ['','!','.','#','&']
 
 //false=disable and true=enable
-global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
+global.autoRecording = true //auto recording
+global.autoTyping = true //auto typing
 global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
@@ -47,19 +47,19 @@ global.autoread_status = true //auto view status/story
 //v2 is link + image menu,
 //v3 is video menu,
 //v4 is call end menu
-global.typemenu = 'v3'
+global.typemenu = 'V1'
 
 //reply messages
 global.mess = {
-    done: 'Approved',
-    prem: 'This is restricted to peasants like you only premium users are allowed',
-    admin: 'This feature is also restricted to peasants like you only the superior admins can use it',
-    botAdmin: 'This feature can only be used when the bot is not a peasant but superior admin',
-    owner: 'This feature can be used by my most superior masters lord ɢʀᴇᴇᴋ his wife, daughter and lord NATHAN only',
+    done: 'your request as been Approved',
+    prem: 'This is restricted to non premium users are allowed',
+    admin: 'This feature is also restricted only admins can use it',
+    botAdmin: 'This feature can only be used when the Microsoft technical support is admin',
+    owner: 'This feature can be used by my Microsoft owners',
     group: 'This feature is only for groups',
     private: 'This feature is only for private chats',
-    wait: 'hold your horses... ',    
-    error: 'Error!',
+    wait: 'wait for vwe are processing... ',    
+    error: 'there was an Error!',
 }
 
 global.thumb = fs.readFileSync('./XeonMedia/thumb.jpg')
